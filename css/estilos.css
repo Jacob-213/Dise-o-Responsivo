@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    margin: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    table{
+        width: 80%;
+        border-collapse: collapse;
+        border: 3px solid darkblue;
+    }
+    th{
+        background-color:black;
+        color: white;
+    }
+    td{
+        padding: 10px;
+        text-align: center;
+        border: 1px solid darkblue;
+    }
+    tr:nth-child(odd){
+        background-color: aliceblue;
+    }
+    .contenedor{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .descripcion{
+        width: 40%;
+    }
+
+
+@media (min-width:300px) and (max-width:1145px){
+
+    .contenedor{
+        display: none;
+    }
+           
+}
+
+
+@media (min-width:1146px) and (max-width:2000px){
+
+     h1{
+        margin: 25px;
+        font-family: 'Times New Roman', Times, serif;
+        }
+
+        .tabledivs{
+            display: none;
+        }
+
+}
+
+
+.divs{
+    justify-content: center;
+    align-items: baseline;
+    display: flex;
+}
+
+.tabledivs{
+
+    width: auto;
+    margin: 50px;
+}
+
+.header{
+    text-align: center;
+    border: 5px solid red;
+    border-collapse: collapse;
+    margin: auto;
+    padding: auto;
+    background-color: burlywood;
+}
+
+.card{
+
+    text-align: center;
+    border: 5px solid blue;
+    border-collapse: collapse;
+    margin: 30px;
+    padding: 10px;
+    background-color: beige;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
